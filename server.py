@@ -14,7 +14,7 @@ from views import (
     base
 )
 
-app.register_blueprint(base.views, url_prefix='/')
+app.register_blueprint(base.views)
 
 if __name__ == '__main__':
     app.run('0.0.0.0')
