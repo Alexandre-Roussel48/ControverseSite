@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le Groupe controversé</title>
+    <link rel="icon" type="image/x-icon" href="/static/ressources/logo.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+  </head>
+  <body>
+    <div class="nav-columns columns">
+      <div class="column is-1">
+        <a href="/">
+          <img src="/static/ressources/logo.jpg" class="logo">
+        </a>
+      </div>
+      <div class="column is-11 nav-column">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <a href="/resume" class="navbar-item">
+                Les jumeaux numériques
+              </a>
+              <a href="/medical" class="navbar-item">
+                Médical
+              </a>
+              <a href="/militaire" class="navbar-item">
+                Militaire
+              </a>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Plus
+                </a>
+
+                <div class="navbar-dropdown">
+                  <a href="/groupe" class="navbar-item">
+                    À propos du groupe
+                  </a>
+                  <a href="/contact" class="navbar-item">
+                    Contact
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="/mentions_legales" class="navbar-item">
+                    Mentions légales
+                  </a>
+                </div>
+              </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="background">
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>
