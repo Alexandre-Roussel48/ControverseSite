@@ -1,0 +1,18 @@
+.logo {
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+
+.nav-columns {
+	margin-bottom: 0 !important;
+}
+
+.nav-column {
+	padding-top: 2rem;
+	padding-left: 0;
+}
+
+.background {
+	background-color: #00d1b2;
+}
