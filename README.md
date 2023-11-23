@@ -20,10 +20,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## configuration
-
-Rename file **config.py.sample** -> **config.py and complete informations**
-
 ## run (development mode)
 
 ```
