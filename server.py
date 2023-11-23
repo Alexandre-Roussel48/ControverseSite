@@ -4,8 +4,6 @@ from itsdangerous import (
         SignatureExpired,
         BadSignature)
 
-import config
-
 app = Flask('__name__')
 
 from views import (
