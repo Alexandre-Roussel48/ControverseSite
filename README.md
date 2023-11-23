@@ -13,7 +13,7 @@ apt-get install python3-venv
 then :
 
 ```
-git clone https://github.com/Alexandre-Roussel48/https://github.com/Alexandre-Roussel48/ControverseSite.git
+git clone https://github.com/Alexandre-Roussel48/ControverseSite.git
 cd ControverseSite
 python3 -m venv venv
 source venv/bin/activate
