@@ -13,14 +13,39 @@
 	padding-left: 0;
 }
 
-.background {
-	background-color: #00d1b2;
-	position: absolute;
-	height: 1500px;
-	width: 100%;
-	padding-top: 50px;
-}
-
 .center-text {
 	text-align: center;
+}
+
+.box {
+	border-radius: 10px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	background-color: rgb(255, 255, 255);
+	z-index: 0;
+  }
+  
+#background-video {
+	
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	filter: brightness(25%);
+ 	
+}
+.box img {
+	height: 100%;
+	width: 100%;
+	position: right;
+	border: 1px solid rgb(81, 57, 57);
+	border-radius: 10px 30px 10px 30px;
+	/*filter: blur(0px);*/
 }
