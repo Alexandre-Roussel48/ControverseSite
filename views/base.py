@@ -33,11 +33,6 @@ def militaire():
 def groupe():
         return render_template('groupe.html')
 
-#Cette fonction est la page de contact
-@views.route('/contact')
-def contact():
-        return render_template('contact.html')
-
 #Cette fonction est la page traitant des mentions legales
 @views.route('/mentions_legales')
 def mentions_legales():
