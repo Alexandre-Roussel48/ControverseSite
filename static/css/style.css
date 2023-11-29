@@ -16,16 +16,6 @@
 .center-text {
 	text-align: center;
 }
-
-.box {
-	border-radius: 10px;
-	height: auto;
-	padding: 0;
-	margin: 0;
-	font-family: arial;
-	background-color: rgb(255, 255, 255);
-	z-index: 0;
-  }
   
 #background-video {
 	
